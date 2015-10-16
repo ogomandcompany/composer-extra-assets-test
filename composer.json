@@ -1,0 +1,27 @@
+{
+    "name": "rgenerator/composer-extra-assets",
+    "description": "Test",
+    "type": "wordpress-plugin",
+    "require": {
+        "koala-framework/composer-extra-assets": "^1.1@dev"
+    },
+    "extra": {
+        "require-npm": {
+            "grunt": "0.4.*"
+        },
+        "require-bower": {
+            "jquery": "*"
+        },
+        "require-dev-bower": {
+            "qunit": "*"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ogom And Co Inc",
+            "email": "ogomandco@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
